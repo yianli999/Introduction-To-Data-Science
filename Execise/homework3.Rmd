@@ -1,0 +1,12 @@
+weekdays<-c("Monday","Tuesday","Wednesday","Thursday","Friday")
+favorite_day<-weekdays[5]
+favorite_day
+without_monday<-weekdays[c(-1)]
+without_monday
+not_blue_monday<-weekdays!="Monday"
+not_blue_monday
+
+
+speed_char<-c("slow","fast")
+speed_factor<-factor(speed_char,ordered = TRUE,levels = c("slow","fast"))
+speed_factor                     
